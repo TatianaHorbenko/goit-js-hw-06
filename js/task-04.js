@@ -5,10 +5,10 @@ const btnDecrement = document.querySelector('button[data-action="decrement"]');
 const btnIncrement = document.querySelector('button[data-action="increment"]');
 const value = document.querySelector('#value');
 
-const onBtnIncrementClick = (event) => {
+const onBtnIncrementClick = () => {
   value.textContent = counterValue += 1;
 };
-const onBtnDecrementClick = (event) => {
+const onBtnDecrementClick = () => {
   value.textContent = counterValue -= 1;
 };
 
