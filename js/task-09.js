@@ -7,10 +7,10 @@ function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 }
 const onChangeColor= () =>{
-  const chandeColor = getRandomHexColor();
+  const changeColor = getRandomHexColor();
 
-  bodyColorEl.setAttribute("style", ` background-color:${chandeColor} `);
-  spanColorEl.textContent = chandeColor;
+  bodyColorEl.setAttribute("style", ` background-color:${changeColor} `);
+  spanColorEl.textContent = changeColor;
 }
 changeColorBtn.addEventListener("click", onChangeColor);
 
