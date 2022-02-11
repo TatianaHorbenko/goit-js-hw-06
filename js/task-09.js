@@ -9,7 +9,7 @@ function getRandomHexColor() {
 const onChangeColor= () =>{
   const chandeColor = getRandomHexColor();
 
-  bodyColorEl.setAttribute("style", `background-color:${chandeColor} `);
+  bodyColorEl.setAttribute("style", ` background-color:${chandeColor} `);
   spanColorEl.textContent = chandeColor;
 }
 changeColorBtn.addEventListener("click", onChangeColor);
